@@ -65,7 +65,7 @@ android:orientation="vertical"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:onClick="onGridView"
+            android:onClick="onPortalBerita"
             android:orientation="vertical">
             <ImageView
                 android:layout_width="100dp"
@@ -74,16 +74,16 @@ android:orientation="vertical"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="gridview"/>
+                android:text="Portal Berita"/>
         </LinearLayout>
         <LinearLayout
             android:layout_weight="1"
-            android:onClick="onCustomAlert"
-            android:layout_width="match_parent"
+             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/purple_500"
             android:layout_marginTop="10dp"
             android:gravity="center"
+            android:onClick="onBuah"
             android:orientation="vertical">
             <ImageView
                 android:layout_width="100dp"
@@ -92,9 +92,8 @@ android:orientation="vertical"
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="custom alertdialog"/>
+                android:text="Buah"/>
         </LinearLayout>
     </LinearLayout>
 
     </LinearLayout>
-</LinearLayout>

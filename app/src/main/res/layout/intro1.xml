@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="@color/purple_500"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_sepeda" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txttitle"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:layout_below="@id/img"
+        android:text="sepeda"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/txttitle"
+        android:text="Aplikasi ini bertujuan untuk membantu para cyclist agar lebih semangat dalam bermain sepeda"/>
+</RelativeLayout>

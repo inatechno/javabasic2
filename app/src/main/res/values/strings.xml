@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">Training Basic 2</string>
+    <string name="title_activity_wa">WaActivity</string>
+    <string name="tab_text_1">Chat</string>
+    <string name="tab_text_2">Status</string>
+    <string name="tab_text_3">Panggilan</string>
+    <string name="tab_buah_1">List Biasa</string>
+    <string name="tab_buah_2">Custom List</string>
+    <string name="tab_buah_3">Custom Grid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="namaBuah">
+        <item>alpukat</item>
+        <item>apel</item>
+        <item>ceri</item>
+        <item>durian</item>
+        <item>manggis</item>
+    </array>
+    <array name="detailBuah">
+        <item>alpukat tumbuhan penghasil buah meja dengan nama sama. Tumbuhan ini berasal dari
+            Meksiko dan Amerika Tengah dan kini banyak dibudidayakan di Amerika Selatan dan Amerika
+            Tengah sebagai tanaman perkebunan monokultur dan sebagai tanaman pekarangan di
+            daerah-daerah
+        </item>
+        <item>apel tumbuhan penghasil buah meja dengan nama sama. Tumbuhan ini berasal dari Meksiko
+            dan Amerika Tengah dan kini banyak dibudidayakan di Amerika Selatan dan Amerika Tengah
+            sebagai tanaman perkebunan monokultur dan sebagai tanaman pekarangan di daerah-daerah
+        </item>
+        <item>ceri tumbuhan penghasil buah meja dengan nama sama. Tumbuhan ini berasal dari Meksiko
+            dan Amerika Tengah dan kini banyak dibudidayakan di Amerika Selatan dan Amerika Tengah
+            sebagai tanaman perkebunan monokultur dan sebagai tanaman pekarangan di daerah-daerah
+        </item>
+        <item>durian tumbuhan penghasil buah meja dengan nama sama. Tumbuhan ini berasal dari
+            Meksiko dan Amerika Tengah dan kini banyak dibudidayakan di Amerika Selatan dan Amerika
+            Tengah sebagai tanaman perkebunan monokultur dan sebagai tanaman pekarangan di
+            daerah-daerah
+        </item>
+        <item>manggis tumbuhan penghasil buah meja dengan nama sama. Tumbuhan ini berasal dari
+            Meksiko dan Amerika Tengah dan kini banyak dibudidayakan di Amerika Selatan dan Amerika
+            Tengah sebagai tanaman perkebunan monokultur dan sebagai tanaman pekarangan di
+            daerah-daerah
+        </item>
+    </array>
+    <string name="title_activity_tab_buah">TabBuahActivity</string>
 </resources>

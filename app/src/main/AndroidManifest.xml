@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.inatechno.trainingbasic2">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrainingBasic2">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".view.TabBuahActivity"
+            android:label="@string/title_activity_tab_buah"
+            android:theme="@style/Theme.TrainingBasic2.NoActionBar"></activity>
+        <activity
+            android:name=".view.WaActivity"
+            android:label="@string/title_activity_wa"
+            android:theme="@style/Theme.TrainingBasic2.NoActionBar" />
+        <activity android:name=".view.TabWAActivity" />
+        <activity android:name=".view.YoutubeApiActivity" />
+        <activity
+            android:name=".IntroSliderActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
