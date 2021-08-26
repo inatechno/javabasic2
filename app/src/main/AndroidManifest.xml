@@ -11,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TrainingBasic2">
+        <activity android:name=".view.DetailCustomGridActivity"/>
         <activity
             android:name=".view.TabBuahActivity"
             android:label="@string/title_activity_tab_buah"

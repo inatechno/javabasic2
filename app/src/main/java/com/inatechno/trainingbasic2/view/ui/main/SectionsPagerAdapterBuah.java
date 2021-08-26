@@ -9,9 +9,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.inatechno.trainingbasic2.R;
-import com.inatechno.trainingbasic2.view.fragment.ChatFragment;
+import com.inatechno.trainingbasic2.view.fragment.CustomListGridBuahFragment;
 import com.inatechno.trainingbasic2.view.fragment.ListBuahFragment;
-import com.inatechno.trainingbasic2.view.fragment.PanggilanFragment;
 import com.inatechno.trainingbasic2.view.fragment.StatusFragment;
 
 
@@ -40,10 +39,10 @@ public class SectionsPagerAdapterBuah extends FragmentPagerAdapter {
                 fragment = new ListBuahFragment();
                 break;
             case 1:
-                fragment = new StatusFragment();
+                fragment = new CustomListGridBuahFragment(1);
                 break;
             case 2:
-                fragment = new PanggilanFragment();
+                fragment = new CustomListGridBuahFragment(2);
                 break;
         }
         return fragment;

@@ -9,4 +9,10 @@
         android:horizontalSpacing="10dp"
         android:verticalSpacing="10dp"
         android:id="@+id/gridBuah"/>
+
+    <ListView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:id="@+id/customlist"
+        android:layout_height="match_parent"/>
 </FrameLayout>
